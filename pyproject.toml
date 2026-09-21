@@ -1,0 +1,7 @@
+[project]
+name = "altgrep"
+version = "0.1.0"
+description = "CLI catalog for unusual listings"
+requires-python = ">=3.11"
+[tool.setuptools.packages.find]
+where = ["src"]
