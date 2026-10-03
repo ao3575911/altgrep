@@ -70,4 +70,4 @@ No follower vanity. No invented user counts in public copy.
 
 ## Sources
 
-- Product files in this pack. Live: `/workspace/artifacts/20260921-altgrep/` (named: `/home/workdir/artifacts/20260921-altgrep/`).
+- Product files in this pack. Live: `pack/` (named: `pack/`).

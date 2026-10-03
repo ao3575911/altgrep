@@ -15,8 +15,8 @@ Hardened paste-ready system prompt for Dr Eggbot. Creates a Grok steward that ca
 
 - Product name locked: **altGrep**. Display: **Alt/Grep**. CLI: `altgrep`.
 - Motto / lockup: single source in `09-brand-kit.md`.
-- Named canon pack: `/home/workdir/artifacts/20260921-altgrep/`; code: `/home/workdir/artifacts/altgrep/`.
-- Live on this Grok Bot box: `/workspace/artifacts/20260921-altgrep/` and `/workspace/artifacts/altgrep/` (see `/workspace/artifacts/PATH-NOTE.md`).
+- `pack/`; code: the repo root.
+- Live on this Grok Bot box: `pack/` and the repo root.
 - Dead names: Altered, AltBay, bare Alt as this product.
 - P0 CLI honesty: shipped signup/whoami/list create/search/show/vouch add/categories/demo; missing profile @handle, thread open/reply, vouch revoke.
 
@@ -37,10 +37,10 @@ CANON (highest wins)
 2. 07-schemas.md + 08-api.md
 3. 04-product-design.md
 4. 05-build-spec.md
-5. Other pack files in /home/workdir/artifacts/20260921-altgrep/
-   (live on Grok Bot box: /workspace/artifacts/20260921-altgrep/)
-6. Code in /home/workdir/artifacts/altgrep/
-   (live: /workspace/artifacts/altgrep/)
+5. Other pack files in `pack/`
+   (live on Grok Bot box: pack/)
+6. Code in ./
+   (live: ./)
 7. This conversation
 
 If two sources disagree, say so in one line and follow the higher item. Do not invent a third canon.
@@ -116,13 +116,13 @@ altGrep steward online. Canon is the 20260921-altgrep pack. Next slice: local se
 ## How to use
 
 1. Paste only the fenced SYSTEM block into Dr Eggbot as the bot’s system / identity prompt.
-2. Point Eggbot at named `/home/workdir/artifacts/20260921-altgrep/` and `/home/workdir/artifacts/altgrep/`, or live `/workspace/artifacts/20260921-altgrep/` and `/workspace/artifacts/altgrep/` on this box.
+2. Point Eggbot at named `pack/` and the repo root, or live `pack/` and the repo root on this box.
 3. First human message after spawn should be one verb (`extend search`, `edit 04`, `add thread`), not a new vision.
 
 ## What changed from the draft
 
 Contracted: repeated identity-card theatre, duplicate motto/lockup lines, fluff, open questions already decided, “verified” as UI stand-in, GitHub left as a vague open question.
-Expanded: ranked canon clarity, fail-closed behaviour, no sibling repo, counsel gate for terms/IP/privacy, output contract, refusal lines, explicit “no GitHub push unless Adam orders the gate”, honest path remap (named `/home/workdir/...` vs live `/workspace/artifacts/...`), P0 CLI honesty.
+Expanded: ranked canon clarity, fail-closed behaviour, no sibling repo, counsel gate for terms/IP/privacy, output contract, refusal lines, explicit “no GitHub push unless Adam orders the gate”, honest path remap (named `/home/workdir/...` vs live `(local paths)`), P0 CLI honesty.
 
 ## Actions
 
@@ -135,6 +135,6 @@ Expanded: ranked canon clarity, fail-closed behaviour, no sibling repo, counsel 
 
 ## Sources
 
-- Named: `/home/workdir/artifacts/20260921-altgrep/06-claims-goals.md`
-- Named: `/home/workdir/artifacts/altgrep/`
-- Live: `/workspace/artifacts/20260921-altgrep/`, `/workspace/artifacts/altgrep/`
+- Named: `pack/`06-claims-goals.md`
+- Named: the repo root
+- Live: `pack/`, the repo root

@@ -16,7 +16,7 @@ CLI/module: `altgrep`. Pack date: 2026-09-21.
 ## Run (this box)
 
 ```bash
-cd /workspace/artifacts/altgrep-release
+cd ./
 PYTHONPATH=src python3 -m altgrep demo
 ```
 

@@ -18,7 +18,7 @@ HTTP and CLI verb map. P0 implements CLI only against a local store.
 - **P0 CLI shipped:** `signup`, `whoami`, `list create`, `search`, `show`, `vouch add`, `categories`, `demo`.
 - **P0 CLI missing (table below still binds the target):** `profile @handle`, `thread open`, `thread reply`, `vouch revoke`. Also later: `handle prove`, `group create`, `report`.
 - Fail closed: `unproven_handle` is not success. No UI “verified” weasel.
-- Named canon code: `/home/workdir/artifacts/altgrep/`; live: `/workspace/artifacts/altgrep/`.
+- Named canon code: the repo root; live: the repo root.
 
 ## Thesis
 

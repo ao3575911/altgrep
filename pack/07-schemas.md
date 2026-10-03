@@ -17,7 +17,7 @@ Canonical field names for profiles, listings, threads, vouches, groups.
 - Times are ISO-8601 UTC.
 - Field names here bind CLI `--json`, HTTP, and the local store. Do not invent aliases.
 - Seed listing categories in build: `handle`, `consulting`, `dossier`. Broader taxonomy in `04` is not a schema expansion mandate.
-- Named canon pack: `/home/workdir/artifacts/20260921-altgrep/`; live: `/workspace/artifacts/20260921-altgrep/`.
+- `pack/`; live: `pack/`.
 
 ## Thesis
 

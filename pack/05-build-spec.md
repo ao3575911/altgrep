@@ -13,7 +13,7 @@ What to build, in what order, against which interfaces.
 
 ## Facts
 
-- Named canon code path: `/home/workdir/artifacts/altgrep/`. Live on this box: `/workspace/artifacts/altgrep/` (see `/workspace/artifacts/PATH-NOTE.md`).
+- Named canon code path: the repo root. Live on this box: the repo root.
 - Language for v0: Python 3.11+ stdlib-first CLI, JSON files as the store. Swap the store for Postgres later without changing verbs.
 - **P0 shipped today:** `signup`, `whoami`, `list create`, `search`, `show`, `vouch add`, `categories`, `demo`.
 - **P0 missing vs this file / `08-api.md`:** `profile @handle`, `thread open`, `thread reply`, `vouch revoke`. Reflect gaps; do not invent features in docs as if they run.
@@ -26,7 +26,7 @@ Thesis. Spec the verbs first. Persistence is a plugin.
 
 ### Stack v0
 
-- CLI: `python -m altgrep` (on this box: `cd /workspace/artifacts/altgrep && PYTHONPATH=src python3 -m altgrep`)
+- CLI: `python -m altgrep` (on this box: `PYTHONPATH=src python3 -m altgrep`)
 - Store: `~/.altgrep/state.json` (local) or `$ALTGREP_HOME`
 - HTTP later: same JSON schemas, FastAPI or similar
 - Web later: read-only catalog over the same store
@@ -65,7 +65,7 @@ Local store is not multi-user safe. Hosted v1: TLS, hashed credentials, operator
 
 ## Actions
 
-1. Run on this box: `cd /workspace/artifacts/altgrep && PYTHONPATH=src python3 -m altgrep demo`.
+1. Run on this box: `PYTHONPATH=src python3 -m altgrep demo`.
 2. Do not start a chat protocol until listings search works (search already ships; next: thread + profile + vouch revoke).
 3. Counsel gate for terms, IP notice mailbox, privacy before public paid offers.
 
@@ -75,4 +75,4 @@ Local store is not multi-user safe. Hosted v1: TLS, hashed credentials, operator
 
 ## Sources
 
-- This pack and the scaffold README. Live pack: `/workspace/artifacts/20260921-altgrep/`.
+- This pack and the scaffold README. Live pack: `pack/`.

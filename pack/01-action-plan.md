@@ -52,4 +52,4 @@ Thesis. Do not build chat, market, and trust as three apps. Build one identity (
 
 ## Sources
 
-- Pack files in this directory. Live paths: `/workspace/artifacts/20260921-altgrep/` (named: `/home/workdir/artifacts/20260921-altgrep/`).
+- Pack files in this directory. Live paths: `pack/` (named: `pack/`).

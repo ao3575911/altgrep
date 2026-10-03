@@ -18,7 +18,7 @@ Locked public name, motto, and voice. Single source for lockup strings.
 - CLI / package: `altgrep`.
 - Motto: **Grep the listings a shopfront will not hold.**
 - Short lockup: **Rights. Files. Handles. Hours.**
-- Mark file (named): `/home/workdir/artifacts/altgrep/brand/mark.jpg`. Live: `/workspace/artifacts/altgrep/brand/mark.jpg`.
+- Mark file (named): `./brand/mark.jpg`. Live: `./brand/mark.jpg`.
 - Dead names: Altered, AltBay, bare Alt.
 
 ### Name row

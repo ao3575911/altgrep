@@ -15,7 +15,7 @@ Separate what AltGrep may claim from what it will not. **Highest canon** in this
 
 - Australian secondary sources: you commercialise rights around an idea, you do not sell a raw idea as property. [web:94]
 - USPTO-style Section 8 cancellation of a mark does not clear a name worldwide (from prior pack).
-- Named canon pack/code under `/home/workdir/artifacts/...`; live on this box under `/workspace/artifacts/...` (see PATH-NOTE).
+- Named canon pack/code under `(local paths)`; live on this box under `(local paths)`.
 - UI must never shorten “control-proven handle” to “verified.” Decided: no.
 
 ## Thesis

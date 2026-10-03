@@ -4,21 +4,15 @@ CLI-first catalog for unusual listings: rights, dossiers, handles you control, h
 
 This is a P0 local scaffold. No network. State lives in `~/.altgrep/state.json` or `$ALTGREP_HOME`.
 
-## Paths
-
-- **Live (this Grok Bot box):** `/workspace/artifacts/altgrep`
-- **Named canon (pack prose):** `/home/workdir/artifacts/altgrep`
-- Design pack: live `/workspace/artifacts/20260921-altgrep/` (named `/home/workdir/artifacts/20260921-altgrep/`). See `/workspace/artifacts/PATH-NOTE.md`.
-
 ## Run
 
 ```bash
-cd /workspace/artifacts/altgrep
+git clone https://github.com/ao3575911/altgrep && cd altgrep
 PYTHONPATH=src python3 -m altgrep --help
 PYTHONPATH=src python3 -m altgrep demo
 ```
 
-(Named-canon equivalent: `cd /home/workdir/artifacts/altgrep` with the same commands.)
+The design notes are in [`pack/`](pack/).
 
 ## Verbs (P0 shipped)
 
